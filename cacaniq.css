@@ -1,0 +1,30 @@
+.maquina-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    border: 10px solid #daa520;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 0.5);
+}
+
+.bobinas {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.slot img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#mensagem{
+    min-height: 1.5em;
+}
