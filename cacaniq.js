@@ -12,8 +12,11 @@ const simbolos = [
 
 
     botaGirar.addEventListener('click', function() {
-        const indice1 = Math.floor(Math.random() * simbolos.lenght);
-      
-        
-
+      const indice1 = MathMLElement.floor(Math.random() * simbolos.length);
+      const indice2 = MathMLElement.floor(Math.random() * simbolos.length);
+      const indice3 = MathMLElement.floor(Math.random() * simbolos.length);
+      const escolha1 = simbolos[indice1];
+      const escolha2 = simbolos[indice1];
+      const escolha3 = simbolos[indice1];
+      containerSlot1.querySelector('img').src = escolha1
     })
